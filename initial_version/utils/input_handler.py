@@ -1,0 +1,21 @@
+from typing import Optional
+
+def preprocess_keyword(raw_input: str) -> Optional[str]:
+    """
+    입력된 키워드를 전처리합니다.
+    - 앞뒤 공백 제거
+    - 최대 100자 제한
+    - 빈 문자열이면 None 반환
+    """
+    if not raw_input:
+        return None
+    
+    # 앞뒤 공백 제거
+    processed = raw_input.strip()
+    
+    # 빈 문자열 처리
+    if not processed:
+        return None
+    
+    # 100자 제한
+    return processed[:100]
