@@ -1,0 +1,14 @@
+[project]
+name = "kice-solver"
+version = "0.1.0"
+description = "수능 국어 문제 풀이 AI (Gemini API)"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "google-genai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "typing-extensions>=4.0.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "scikit-learn>=1.3.0",
+]

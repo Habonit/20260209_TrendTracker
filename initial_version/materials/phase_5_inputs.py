@@ -11,7 +11,7 @@
 # - 알림 메시지 (st.info, st.success, st.warning, st.error)
 #
 # 📋 실행 방법:
-# streamlit run materials/phase_5_inputs.py
+# uv run streamlit run materials/phase_5_inputs.py
 # ============================================
 """
 
@@ -46,7 +46,6 @@ st.markdown("""
 ### 슬라이더란?
 
 **범위 내에서 값을 선택**하는 UI입니다.
-음량 조절 바를 생각하면 됩니다!
 
 ### 사용법
 

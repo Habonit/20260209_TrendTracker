@@ -10,7 +10,7 @@
 # - TrendTracker의 components/ 폴더 이해
 #
 # 📋 실행 방법:
-# streamlit run materials/phase_5_components.py
+# uv run streamlit run materials/phase_5_components.py
 # ============================================
 """
 
