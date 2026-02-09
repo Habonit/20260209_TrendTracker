@@ -1,13 +1,16 @@
-# 바이브코딩과 데이터 분석
+# TrendTracker - 바이브코딩을 활용한 데이터 처리 및 자동화
 
-> 2026년 2월 9일 전주대학교 교육 컨텐츠
+> **전주대학교** | 2026.02.09 ~ 2026.02.13 (5일간) | 대상: 비개발자
 
-AI 바이브코딩을 활용한 파이썬 프로그래밍과 데이터 분석 실습 자료입니다.
+AI 바이브코딩을 활용한 파이썬 프로그래밍과 데이터 처리/자동화 실습 자료입니다.
+
+**교안**: [Notion 링크](https://www.notion.so/20260209_-_TrendTracker-2e8a031c6269806699d3d12666afe8de?source=copy_link)
 
 ## 학습 순서
 
 | 순서 | 폴더 | 주제 | 설명 |
 |:---:|------|------|------|
+| 0 | `python_tutorial` | Python 입문 | Jupyter Notebook 기반 Python 기초 튜토리얼 |
 | 1 | `uv_python_dotenv` | 환경 설정 기초 | uv 패키지 매니저와 환경변수(.env) 사용법 |
 | 2 | `use_google_api_key` | API 연동 기초 | Google Gemini API 호출 실습 |
 | 3 | `initial_version` | 메인 프로젝트 | 뉴스 검색 + AI 요약 Streamlit 앱 |
@@ -15,6 +18,26 @@ AI 바이브코딩을 활용한 파이썬 프로그래밍과 데이터 분석 �
 | 5 | `learn_python_trpg` | 복습 게임 | 파이썬 개념 복습 TRPG 퀴즈 게임 |
 
 ## 프로젝트 상세
+
+### 0. python_tutorial - Python 입문 튜토리얼
+
+Python을 처음 배우는 비개발자를 위한 Jupyter Notebook 기반 튜토리얼입니다.
+각 Step은 **이론 → 실습 → 챌린지** 3단계로 구성되어 있습니다.
+
+| Step | 파일명 | 학습 내용 |
+|---|---|---|
+| 1 | Step1_Basic_Syntax.ipynb | 변수, 자료형, 연산자, 문자열, 입출력 |
+| 2 | Step2_Control_Flow.ipynb | 조건문, 반복문, 컴프리헨션 |
+| 3 | Step3_Data_Structures.ipynb | 리스트, 튜플, 집합, 딕셔너리 |
+| 4 | Step4_Functions_and_Modules.ipynb | 함수, 스코프, 람다, 모듈 |
+| 5 | Step5_Intermediate.ipynb | 파일 I/O, 예외 처리, 클래스 |
+| 6 | Step6_Projects.ipynb | 계산기, 가위바위보, pandas 분석 |
+
+```bash
+cd python_tutorial
+uv sync
+uv run jupyter notebook
+```
 
 ### 1. uv_python_dotenv - 환경 설정 기초
 
@@ -109,8 +132,9 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 ## 기술 스택
 
-- **Python 3.11+**
+- **Python 3.12+**
 - **uv** - 패키지 관리
+- **Jupyter Notebook** - 튜토리얼 실습
 - **Streamlit** - 웹 UI
 - **Google Gemini API** - AI 모델
 - **Tavily API** - 웹 검색
