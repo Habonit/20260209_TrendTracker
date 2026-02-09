@@ -1708,10 +1708,10 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "ipykernel", specifier = ">=7.2.0" },
-    { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "matplotlib", specifier = ">=3.10.8" },
-    { name = "pandas", specifier = ">=3.0.0" },
+    { name = "ipykernel" },
+    { name = "jupyter" },
+    { name = "matplotlib" },
+    { name = "pandas" },
 ]
 
 [[package]]
